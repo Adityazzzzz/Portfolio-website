@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Company HR Portal</title>
+        <link rel="icon" href="https://img.icons8.com/?size=32&id=Usl_VdxoFUxI&format=png">
+        <style>
+            body{
+                margin:0px;
+                padding: 0px;
+                font-family:arial,sans-serif;
+                background-color: #CEEFF2;
+            }
+            header,footer{
+                background-color:#639499;
+                color: aliceblue;
+                text-align: center;
+                padding: 5px;
+                margin:5px
+            }
+            .navitem {
+                display: inline;
+                padding: 15px;
+            }
+            .navitem a{
+                text-decoration: none;
+                color:aliceblue;
+            }
+            form{
+                line-height: 35px;
+            }
+           
+            .emreg{
+                width: max-content;
+                margin-left: auto;
+                margin-right: auto;   
+            }
+            .emdir{
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;  
+
+            }
+            table{
+                width: 100%;
+            }
+            td,th{
+                border: 1px solid black;
+            }
+            .cous{
+                width: max-content;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to Comapany HR Portal</h1>
+            <nav>
+                <ul>
+                    <li class="navitem"><a href="#employee-registration">Employee Registration</a></li>
+                    <li class="navitem"><a href="#employee-directory">Employee Directory</a></li>
+                    <li class="navitem"><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP1RfWOyyro95Gvpz8hq-Ndl4qes0ggITJ-A&usqp=CAU" 
+        height="250" width="100%">
+
+        <section id="employee-registration" class="emreg">
+            <h3>Employee Registration</h3>
+            <p>Fill the following form to register:</p>
+            <form>
+                <label for="1" >First Name:</label>
+                <input type="text" placeholder="enter first name" id="1" ><br><!--1-->
+                <label for="2" >SurName:</label>
+                <input type="text" placeholder="surname" id="2" ><br>
+                <label for="3" >Email:</label>
+                <input type="email" placeholder="enter email id" id="3" ><br><!--2-->
+                <label for="4" >Age:</label>
+                <input type="number" placeholder="Age" id="4" ><br><!--3-->
+                <label for="5" >DOB:</label>
+                <input type="date" placeholder="enter DOB" id="5" ><br><!--4-->
+    
+                <label for="gender">Select Gender</label><br>
+                <input type="radio" name="gender"><!--7-->
+                <label>male</label>
+                <input type="radio" name="gender">
+                <label>female</label><br>
+    
+                <label for="nation">Select Country</label><!--8-->
+                <select>
+                    <option value="nation">INDIA</option><!--9-->
+                    <option value="nation">Germany</option>
+                    <option value="nation">USA</option>
+                </select><br>
+
+                <label for="role">Selective Role:</label>
+                <select>
+                    <option value="role">Software Engineer</option><!--9-->
+                    <option value="role">Product Manager</option>
+                    <option value="role">Designer</option>
+                </select><br>
+                
+
+                <label>Password</label>
+                <input type="password" placeholder="password"><br><!--6-->
+    
+                <input type="checkbox"><!--12-->
+                <label>I agree with the term and conditions</label><br>
+    
+                <input type="submit"><!--13-->
+                <input type="reset"><!--14-->
+            </form>
+        </section>
+
+        <section id="employee-directory" class="emdir">
+            <h3>Employee Directory</h3>
+            <p>List of all registered employees:</p>
+            <table style="border: 1px solid black;">
+                <tr>
+                    <th>Employee Name</th>
+                    <th>Employee Id</th>
+                    <th>Employee Role</th>
+                </tr>    
+                <tr>
+                    <td>Hulk</td>
+                    <td>777</td>
+                    <td>Software Engineer</td>
+                </tr>
+                <tr>
+                    <td>Thor</td>
+                    <td>4400</td>
+                    <td>Product Manager</td>
+                </tr>
+                <tr>
+                    <td>Loki</td>
+                    <td>143</td>
+                    <td>Designer</td>
+                </tr>    
+                
+            </table>
+        </section>
+
+        <section id="contact-us" class="cous">
+            <h3>Contact Us</h3>
+            <p>You can contact us at company@gmail.com or 17xxxxxxx6</p>
+            <p>Office Timings:9AM to 6PM</p>
+            <P>Location:</P>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7156.019773466511!2d78.21960953922874!3d26.261342529662734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c120e8205851%3A0x54473743ec3f1764!2sAditya%20Puram%2C%20Gwalior%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1706029396705!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Company Name</p>
+        </footer>
+
+    </body>
+</html>
