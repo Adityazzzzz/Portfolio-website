@@ -30,5 +30,4 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 ## For inquiries or feedback, contact me at adityasinghrajawat2004@gmail.com
 
 
-<br>
-Deployment link https://adityazzzz-portfolio.netlify.app/
+
